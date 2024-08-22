@@ -6,7 +6,7 @@
 </div>
 
 ## Objetivos do código:
-Acessar o site solicitado pelo cliente e baixar todos os links de downloads disponiveis na página.<br>
+Acessar o site pré-determinado e baixar todos os links de downloads disponiveis na página.<br>
 Após os downloads, descompatar os arquivos na pasta.
 
 ## Instruções de uso:
