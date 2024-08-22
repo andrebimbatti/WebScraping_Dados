@@ -4,11 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from time import sleep
-import time
 import zipfile
 from tqdm import tqdm
 from rich import print
-
 import os
 
 
@@ -39,7 +37,7 @@ def aguardar_download_concluir(diretorio):
             print("Download concluído!")
             break
         
-        time.sleep(1)
+        sleep(1)
 
 
 # Iniciando o navegador
